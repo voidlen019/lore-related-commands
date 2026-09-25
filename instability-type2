@@ -25,3 +25,5 @@ clear
 cat ver-2/frame9.txt
 sleep 2
 cat ver-2/frame10.txt | while read line; do echo "$line"; sleep 0.5; done
+clear
+./instability-type2
